@@ -29,12 +29,14 @@ Curation of papers is generally based on the recent publication in top AI confer
   - Jacob Steinhardt, Pang Wei Koh, Percy Liang
 - [**Spectral Signatures in Backdoor Attacks**](https://proceedings.neurips.cc/paper/2018/file/280cf18baf4311c92aa5a042336587d3-Paper.pdf), NeurIPS 2018
   - Brandon Tran, Jerry Li
+  - Personal summary: backdoor attacks generally have a higher score when projected on the top eigenvector of representations --> Filter poisoned data based on them, + Some theoretical guarantees
 - [**Using Trusted Data to Train Deep Networks on Labels Corrupted by Severe Noise**](https://arxiv.org/pdf/1802.05300.pdf), NeurIPS 2018
   - Dan Hendrycks, Mantas Mazeika, Duncan Wilson, Kevin Gimpel
 - [**Poison Frogs! Targeted Clean-Label Poisoning Attacks on Neural Networks**](https://arxiv.org/pdf/1804.00792v2.pdf), NeurIPS 2018
   - Ali Shafahi, W. Ronny Huang, Mahyar Najibi, Octavian Suciu, Christoph Studer, Tudor Dumitras, Tom Goldstein
 - [**Sever: A Robust Meta-Algorithm for Stochastic Optimization**](http://proceedings.mlr.press/v97/diakonikolas19a/diakonikolas19a.pdf), ICML 2019
   - Ilias Diakonikolas, Gautam Kamath, Daniel Kane, Jerry Li, Jacob Steinhardt, Alistair Stewart
+  - Personal summary: Poisoned data generally have a higher score when projected on the top eigenvector of *gradient* --> Filter poisoned data based on them, + Some theoretical guarante
 - [**Learning with Bad Training Data via Iterative Trimmed Loss Minimization**](http://proceedings.mlr.press/v97/shen19e/shen19e.pdf), ICML 2019
   - Yanyao Shen, Sujay Sanghavi
 - [**Data Poisoning Attacks in Multi-Party Learning**](http://proceedings.mlr.press/v97/mahloujifar19a/mahloujifar19a.pdf), ICML 2019
