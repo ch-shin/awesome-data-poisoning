@@ -39,6 +39,7 @@ Curation of papers is generally based on the recent publication in top AI confer
   - Poisoned data generally have a higher score when projected on the top principal direction of *gradients* --> Filter poisoned data based on them, + Some theoretical guarante
 - [**Learning with Bad Training Data via Iterative Trimmed Loss Minimization**](http://proceedings.mlr.press/v97/shen19e/shen19e.pdf), ICML 2019
   - Yanyao Shen, Sujay Sanghavi
+  - Literally, trim some portion of examples that have large losses in each iteration. Theoretical guarantee on linear regression.
 - [**Data Poisoning Attacks in Multi-Party Learning**](http://proceedings.mlr.press/v97/mahloujifar19a/mahloujifar19a.pdf), ICML 2019
   - Saeed Mahloujifar, Mohammad Mahmoody, Ameer Mohammed
 - [**Transferable Clean-Label Poisoning Attacks on Deep Neural Nets**](https://arxiv.org/pdf/1905.05897.pdf), ICML 2019
