@@ -29,14 +29,14 @@ Curation of papers is generally based on the recent publication in top AI confer
   - Jacob Steinhardt, Pang Wei Koh, Percy Liang
 - [**Spectral Signatures in Backdoor Attacks**](https://proceedings.neurips.cc/paper/2018/file/280cf18baf4311c92aa5a042336587d3-Paper.pdf), NeurIPS 2018
   - Brandon Tran, Jerry Li
-  - Personal note: backdoor attacks generally have a higher outlier score when projected on the top principal direction of representations --> Filter poisoned data based on them, + Some theoretical guarantees
+  - Backdoor attacks generally have a higher value when projected on the top principal direction of representations --> Filter poisoned data based on them, + Some theoretical guarantees
 - [**Using Trusted Data to Train Deep Networks on Labels Corrupted by Severe Noise**](https://arxiv.org/pdf/1802.05300.pdf), NeurIPS 2018
   - Dan Hendrycks, Mantas Mazeika, Duncan Wilson, Kevin Gimpel
 - [**Poison Frogs! Targeted Clean-Label Poisoning Attacks on Neural Networks**](https://arxiv.org/pdf/1804.00792v2.pdf), NeurIPS 2018
   - Ali Shafahi, W. Ronny Huang, Mahyar Najibi, Octavian Suciu, Christoph Studer, Tudor Dumitras, Tom Goldstein
 - [**Sever: A Robust Meta-Algorithm for Stochastic Optimization**](http://proceedings.mlr.press/v97/diakonikolas19a/diakonikolas19a.pdf), ICML 2019
   - Ilias Diakonikolas, Gautam Kamath, Daniel Kane, Jerry Li, Jacob Steinhardt, Alistair Stewart
-  - Personal note: Poisoned data generally have a higher score when projected on the top principal direction of *gradients* --> Filter poisoned data based on them, + Some theoretical guarante
+  - Poisoned data generally have a higher score when projected on the top principal direction of *gradients* --> Filter poisoned data based on them, + Some theoretical guarante
 - [**Learning with Bad Training Data via Iterative Trimmed Loss Minimization**](http://proceedings.mlr.press/v97/shen19e/shen19e.pdf), ICML 2019
   - Yanyao Shen, Sujay Sanghavi
 - [**Data Poisoning Attacks in Multi-Party Learning**](http://proceedings.mlr.press/v97/mahloujifar19a/mahloujifar19a.pdf), ICML 2019
@@ -51,7 +51,7 @@ Curation of papers is generally based on the recent publication in top AI confer
   - Alexandre Sablayrolles, Douze Matthijs, Cordelia Schmid, Herve Jegou
 - [**SPECTRE: Defending Against Backdoor Attacks Using Robust Covariance Estimation**](https://homes.cs.washington.edu/~sewoong/backdoor.pdf)
   - Jonathan Hayase, Weihao Kong, Ragahv Somani, Sewoong Oh
-  - Personal note: m-way pixel attack can circumvent PCA defense (Tran et al, Neurips 2018). --> Estimate robust covariance matrix (+ robust mean if you want) of representations and whiten the representations with the estimated covariance + quantum entropy outlier score (its name is scary.) --> better. 
+  - m-way pixel attack can circumvent PCA defense (Tran et al, Neurips 2018). --> Estimate robust covariance matrix (+ robust mean if you want) of representations and whiten the representations with the estimated covariance + quantum entropy outlier score (its name is scary.) --> better. 
 
 
 ## License
