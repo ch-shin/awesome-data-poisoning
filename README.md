@@ -14,7 +14,8 @@ Curation of papers is generally based on the recent publication in top AI confer
 - [**Trojaning attack on neural networks**](https://arxiv.org/pdf/1712.05526.pdf), NDSS 2018
   - Yingqi Liu, Shiqing Ma, Yousra Aafer, Wen-Chuan Lee, Juan Zhai, Weihang Wang, Xiangyu Zhang
 - [**Label-consistent backdoor attacks**](https://arxiv.org/pdf/1912.02771.pdf), arxiv 2019
-  - Alexander Turner, Dimitris Tsipras, Aleksander Madry 
+  - Alexander Turner, Dimitris Tsipras, Aleksander Madry
+  - This paper suggested two kinds of new attack methods - mainly inserting "confusing" poisoned data into training set so that it is not easy to detect. How to make such examples? 1) GAN based latent space interpolation 2) Adversarial perturbations
 - [**Invisible backdoor attacks on deep neural networks via steganography and regularization**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9186317&casa_token=oIzySL0ff20AAAAA:J_sBK-x736EqoE8mGUNcDvT79YINxvpTRL6Gx_V98dH46quPMFThYeWCNmcPyupRfK5U4mZJ&tag=1), IEEE Transactions on Dependable and Secure Computing 2020
   - Shaofeng Li, Minhui Xue, Benjamin Zhao, Haojin Zhu, Xinpeng Zhang
 - [**Backdooring and poisoning neural networks with image-scaling attacks**](https://arxiv.org/pdf/2003.08633.pdf), arxiv 2020
