@@ -55,6 +55,11 @@ Curation of papers is generally based on the recent publication in top AI confer
   - Jonathan Hayase, Weihao Kong, Ragahv Somani, Sewoong Oh
   - m-way pixel attack can circumvent PCA defense (Tran et al, Neurips 2018). --> Estimate robust covariance matrix (+ robust mean if you want) of representations and whiten the representations with the estimated covariance + quantum entropy outlier score (its name is scary.) --> better. 
 
+### Benchmark
+- [**Just How Toxic is Data Poisoning? A Unified Benchmark for Backdoor and Data Poisoning Attacks**](https://arxiv.org/pdf/2006.12557.pdf) ICML 2021
+  - Avi Schwarzschild, Micah Goldblum, Arjun Gupta, John P. Dickerson, Tom Goldstein
+
+
 
 ## License
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
